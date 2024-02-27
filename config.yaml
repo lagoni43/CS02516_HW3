@@ -1,0 +1,6 @@
+redis:
+  host: redis-11042.c282.east-us-mz.azure.cloud.redislabs.com
+  db: 0
+  user: default
+  password: dq5aYNhHadyib33ZXW5j49EWlDOgPb6j
+  port: 11042
