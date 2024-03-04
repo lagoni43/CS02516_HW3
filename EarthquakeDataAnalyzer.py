@@ -75,7 +75,7 @@ class EarthquakeDataAnalyzer:
         startEpochTime = datetime.datetime(startYear,1,1).timestamp()
         stopEpochTime = datetime.datetime(endYear,12,31).timestamp()
 
-        queryString = "@time:["+str(startEpochTime*1000)+" "+str(stopEpochTime*1000)+"]"
+        queryString = "@time:["+str(startEpochTime*1000)+" "+str(stopEpochTime*1000)+"] SORTBY mag DESC"
 
         print(queryString)
 
